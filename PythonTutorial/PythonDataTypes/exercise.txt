@@ -1,0 +1,2 @@
+If x = 5, what is the correct syntax for printing the date type of the variable x?
+    print(type(x))
