@@ -1,0 +1,8 @@
+Consider the following code:
+    x = 'awesome'
+    def myFunc():
+        x = 'fantastic'
+    myFunc()
+    print('Python is ' + x)
+
+    Python is awesome
