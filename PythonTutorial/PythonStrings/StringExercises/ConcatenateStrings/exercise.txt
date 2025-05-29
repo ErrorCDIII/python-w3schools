@@ -1,0 +1,16 @@
+What is the correct syntax to merge variable x and y into variable z?
+    z = x + y
+
+What will be the result of the following code:
+    x = 'Welcome'
+    y = Coders'
+    print(x + y)
+
+    WelcomeCoders
+
+What is the correct syntax to prin 'Join the party'?
+    a = 'Join'
+    b = 'the'
+    c = 'party'
+
+    print(a + ' ' + b + ' ' + c)
