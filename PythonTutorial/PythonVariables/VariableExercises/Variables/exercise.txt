@@ -1,2 +1,13 @@
 What is the correct way to declare a Python variable?
     x = 5
+
+True or False:
+    You can declare string variables with single or double quotes.
+        True
+
+True or False:
+    Variable names are not case-sensitive
+        False
+
+Select the correct functions to print the data type of a variable:
+    print(type(myvar))
