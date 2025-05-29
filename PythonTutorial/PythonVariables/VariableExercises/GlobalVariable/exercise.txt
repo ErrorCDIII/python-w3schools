@@ -6,3 +6,18 @@ Consider the following code:
     print('Python is ' + x)
 
     Python is awesome
+
+Insert the correct keyword to make the variable x belong to the global scope.
+    def myFunc():
+        global x
+        x = "fantastic"
+
+Consider the following code:
+    x = 'awesome'
+    def myFunc():
+        global x
+        x = 'fantastic'
+    myFunc()
+    print('Python is ' + x)
+
+    Python is fantastic
