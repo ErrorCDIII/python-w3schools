@@ -1,0 +1,17 @@
+What will be the result of the following syntax:
+    myList = ['apple', 'banana', 'cherry']
+    myList[0] = 'kiwi'
+    print(myList[1])
+
+    banana
+
+Change the value of "apple" to "kiwi" in the fruits list.
+    fruits = ["apple", "banana", "cherry"]
+    fruits[0] = "kiwi"
+
+What will be the result of the following syntax:
+    myList = ['apple', 'banana', 'cherry']
+    myList[1:2] = ['kiwi', 'mango']
+    print(myList[2])
+
+    mango
