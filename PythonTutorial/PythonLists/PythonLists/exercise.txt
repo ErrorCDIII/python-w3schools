@@ -1,0 +1,12 @@
+What will be the result of the following syntax:
+    myList = ['appple', 'banana', 'cherry']
+    print(myList[1])
+
+    banana
+
+List items cannopt be removed after the list has been created.
+    False
+
+Select the correct function for returning the number of items in a list:
+    thisList = ['apple', 'banana', 'cherry']
+    print(len(thisList))
