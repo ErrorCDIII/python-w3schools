@@ -1,0 +1,15 @@
+Consider the following code:
+    fruits = ['apple', 'banana', 'cherry']
+    newList = [x for x in fruits if x == 'banana']
+
+    ['banana']
+
+Fill the missing parts to complete the list comprehension:
+    fruits = ["apple", "banana", "cherry"]
+    newList = [x for x in fruits]
+
+Consider the following code:
+    fruits = ['apple', 'banana', 'cherry']
+    newList = ['apple' for x in fruits]
+
+    ['apple', 'apple', 'apple']
