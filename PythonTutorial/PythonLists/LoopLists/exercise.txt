@@ -1,0 +1,13 @@
+What is the correct syntax for looping through the items of a list?
+    for x in ['apple', 'banana', 'cherry']:
+        print(x)
+
+Insert the missing part of the while loop below to loop through the items of a list.
+    myList = ['apple', 'banana', 'cherry']
+    i = 0
+    while i < len(myList):
+        print(myList[i])
+        i = i + 1
+
+What is the correct syntax for looping through the items of a list?
+    [print(x) for x in ['apple', 'banana', 'cherry']]
