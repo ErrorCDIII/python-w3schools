@@ -1,0 +1,21 @@
+What will be the result of the following syntax:
+    myList = ['apple', 'banana', 'cherry']
+    myList.insert(0, 'orange')
+    print(myList[1])
+
+    apple
+
+Use the append method ao add "orange" to the fruits list.
+    fruits = ["apple", "banana", "cherry"]
+
+    fruits.append("orange")
+Use the insert method to add "lemon" as the second item in the fruits list.
+    fruits = ["apple", "banana", "cherry"]
+
+    fruits.insert(1, "lemon")
+
+Select the missing parts to add the elements of tropical to fruits: 
+    fruits = ['apple', 'banana', 'cherry']
+    tripical = ['mango', 'pineapple', 'papaya']
+
+    fruits.extend(tropical)
