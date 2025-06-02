@@ -1,0 +1,8 @@
+What is a correct syntax for sorting a list?
+    myList.sort()
+
+What is a correct syntax for reversing the current order of a list?
+    myList.reverse()
+
+What is a correct syntax for sorting a list descending?
+    myList.sort(reverse=True)
