@@ -49,4 +49,24 @@ print(thisList)
 thisList.sort(key=myfunc, reverse=True)
 print(thisList)
 
+print()
+
 # Case Insensitive Sort
+# By default the sort() method is case sensitive, resulting in all capital
+# letters being sorted before lower case letters
+thisList = ["banana", "Orange", "Kiwi", "cherry"]
+thisList.sort()
+print(thisList)
+
+print()
+
+# If you want a case-insensitive function, use str.lower as a key function
+thislist = ["banana", "Orange", "Kiwi", "cherry"]
+thisList.sort(key=str.lower)
+print(thisList)
+
+# Reverse Order
+# The reverse() method reverses the current sorting order
+thislist = ["banana", "Orange", "Kiwi", "cherry"]
+thisList.reverse()
+print(thisList)
