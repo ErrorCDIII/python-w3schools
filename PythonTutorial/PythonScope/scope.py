@@ -46,3 +46,74 @@ myfunc()
 print(x)
 
 # Naming Variables
+
+# If you operate with the same variable name inside and 
+# outside of a function, Python will treat them as two seperate variables,
+# one available in the global scope and one available
+# in the local scope
+
+print()
+
+x = 300
+
+def myfunc():
+    x = 200
+    print(x)
+
+myfunc()
+
+print(x)
+
+# global Keyword
+
+# If you need to create a global variable, but are 
+# stuck in the local scope, use the global keyword.
+# The global keyword makes the variables global.
+
+print()
+
+def myfunc():
+    global x
+    x = 300
+
+myfunc() 
+
+print(x)
+
+# Also, use the global keyword if you want to make a change 
+# to a global variable inside a function
+
+print()
+
+x = 300
+
+def myfunc():
+    global x
+    x = 200
+
+myfunc()
+
+print(x)
+
+# nonlocal Keyword
+
+# The nonlocal keyword is used to work with variables
+# inside nested functions
+
+# The nonlocal keyword makes the variable belong to the
+# outer function
+
+# Example: use the nonlocal keyword, the variable will
+# belong to the outer function
+
+print()
+
+def myfunc1():
+    x = "Jane"
+    def myfunc2():
+        nonlocal x
+        x = "hello"
+    myfunc2()
+    return x
+
+print(myfunc1())
