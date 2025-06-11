@@ -1,0 +1,21 @@
+What placeholders are used when dealing with f-strings?
+    {}
+
+Use the price variable and f-string syntax to display the price 
+with two decimals:
+    price = 59
+    txt = f"The price is {price:.2f} dollars"
+    print(txt)
+
+Use an if statement inside the f-string placeholders ro return
+'perfect' if the price is 100, and 'ok' if it is not
+    price = 100
+    txt = f"It is {'perfect' if price == 100 else 'ok'}"
+    print(txt)
+
+Consider the following code:
+    price = 1000
+    txt = f'The price is {price:,} dollars'
+    print(txt)
+
+    The price is 1,000 dollars
