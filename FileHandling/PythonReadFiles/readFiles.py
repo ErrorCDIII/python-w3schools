@@ -67,3 +67,38 @@ f.close()
 # the file
 
 # Read Only Parts of the File
+
+# By default the read() method returns the whole text, but you can 
+# also specify how many characters you want to return
+
+print()
+
+with open("demofile.txt") as f:
+    print(f.read(5))
+
+# Read Lines
+
+# You can return one line by using the readline() method
+
+print()
+
+with open("demofile.txt") as f:
+    print(f.readline())
+
+# By calling the realine method two times, you can read the first
+# two lines
+
+print()
+
+with open("demofile.txt") as f:
+    print(f.readline())
+    print(f.readline())
+
+# By looping through the lines of the file, you can read the while 
+# file, line by line
+
+print()
+
+with open("demofile.txt") as f:
+    for x in f:
+        print(x)
