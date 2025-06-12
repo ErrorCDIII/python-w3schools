@@ -1,0 +1,10 @@
+After opening a file with open() function, which method can be used
+to read the content?
+    read()
+
+To read onnly one line, we can use another method, which one?
+    readline()
+
+If you call the readline() method two times, it will return the two 
+first lines.
+    True
