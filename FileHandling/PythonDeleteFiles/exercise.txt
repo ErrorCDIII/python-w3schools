@@ -1,0 +1,10 @@
+To remove a file you can import the os module, but which function
+removes the file?
+    os.remove()
+
+Which os function can be used to delete an entire folder?
+    os.rmdir()
+
+True or False.
+To remove a folder with the os module, it cannot contain any files
+    True
