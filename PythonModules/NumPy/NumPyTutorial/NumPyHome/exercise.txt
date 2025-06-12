@@ -1,0 +1,9 @@
+What does NumPy stand for?
+    Numerical Python
+
+What is the array object in NumPy called?
+    ndarray
+
+True or False.
+NumPy is an open source project and you can use it freely
+    True
