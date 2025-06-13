@@ -1,0 +1,41 @@
+Consider the following code:
+    import numpy as np
+    arr = np.array([1, 2, 3, 4, 5, 6, 7])
+    print(arr[:2])
+
+    [1 2]
+
+Insert the correct slicing syntax to print the following selection
+of the array:
+Everything from (including) the second item to (not including) the
+fifth item
+    arr = np.array([10, 15, 20, 25, 30, 35, 40])
+
+    print(arr[1:4])
+
+Insert the correct slicing syntax to print the following selection
+of the array:
+Everything from (including) the third item to (not including) the
+fifth item
+    arr = np.array([10, 15, 20, 25, 30, 35, 40])
+
+    print(arr[2:4])
+
+Insert the correct slicing syntax to print the following selection
+of the array:
+Every other item from (including) the sencond item to (not including)
+the fith item
+Tip: use the step syntax
+
+    arr = np.array([10, 15, 20, 25, 30, 35, 40])
+
+    print(arr[1:4:2])
+
+Insert the correct slicing syntax to print the following selection
+of the array:
+Every other item from the entire array
+Tipe: use the step syntax
+
+    arr = np.array([10, 15, 20, 25, 30, 35, 40])
+
+    print(arr[::2])
