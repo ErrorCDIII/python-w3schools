@@ -1,0 +1,15 @@
+Consider the following code:
+    import numpy as np
+    arr = np.array([[1, 2, 3], [4, 5, 6]])
+    print(arr.shape)
+
+    (2, 3)
+
+Use the correct NumPy syntax to check the shape of an array
+    arr = np.array([1, 2, 3, 4, 5])
+
+    print(arr.shape)
+
+The return value of arr.shape is represented in a certain data type.
+Which one?
+    tuple
