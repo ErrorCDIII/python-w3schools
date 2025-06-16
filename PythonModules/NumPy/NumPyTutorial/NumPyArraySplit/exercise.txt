@@ -1,0 +1,22 @@
+One of these functions can be used to split an array into multiple
+arrays.
+Which one?
+
+    array_split()
+
+Consider the following code:
+    import numpy as np
+    arr = np.array([1, 2, 3, 4, 5, 6])
+    newarr = np.array_split(arr, 3)
+    print(newarr[0])
+What will be the printed result?
+
+    [1 2]
+
+Consider the following code:
+    import numpy as np
+    arr = np.array(['a', 'b', 'c'])
+    newarr = np.array_split(arr, 3)
+How many arrays will newarr contain?
+
+    3
