@@ -1,0 +1,19 @@
+Consider the following code:
+    import numpy as np
+    original_array = np.array([1, 2, 3])
+    x = original_array.copy()
+    x[0] = 5
+    print(original_array)
+What will be the printed result?
+
+    [1, 2, 3]
+
+Use the correct method to make a copy of the array
+    arr = np.array([1, 2, 3,  4, 5])
+
+    x = arr.copy()
+
+Use the correct method to make a view of the array
+    arr = np.array([1, 2, 3, 4, 5])
+
+    x = arr.view()
