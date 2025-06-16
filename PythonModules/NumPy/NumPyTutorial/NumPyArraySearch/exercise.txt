@@ -1,0 +1,17 @@
+Consider the following code:
+    import numpy as np
+    arr = np.array([15, 38, 41, 46])
+    x = np.where(arr%2 == 1)
+    print(x)
+What will be the printed result?
+
+    (array[0, 2],)
+
+Use the correct NumPy method to find all items with the value 4
+    arr = np.array([1, 2, 3, 4, 5, 4, 4])
+
+    x = np.where(arr == 4)
+
+Which NumPy function can be used to find where the specified 
+elements belong in the arrat? (sorted)
+    searchsorted()
