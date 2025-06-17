@@ -1,0 +1,11 @@
+Which one of the following functions returns a random number from 0 to 100?
+    random.randint(100)
+
+Which one of the following functions returns a random floating number from
+0 to 1?
+    random.rand()
+
+Consider the following code:
+    x = random.randint(100, size=(2))
+What is true about the value x?
+    x will be a 2-D array containing 2 random integers from 0 to 100
