@@ -1,0 +1,18 @@
+Consider the following code:
+    
+    x = random.choice([5,2, 7], p=[0.1, 0.3, 0.0], size=100)
+    print(x)
+
+Which one of the following numbers will never occur in the result?
+
+    7
+
+Which one of the following code lines will return a 2 Dimensional array?
+
+    x = random.choice([3, 5, 6, 9], p=[0.1, 0.3, 0.6, 0.0], size=(3, 5))
+
+True or False.
+The probability is set by a number between 1 and 0, where 1 means that 
+the value will never occur and 0 means that the value will always occur.
+
+    False
