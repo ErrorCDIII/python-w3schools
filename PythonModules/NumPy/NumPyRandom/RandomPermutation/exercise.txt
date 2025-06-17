@@ -1,0 +1,12 @@
+Which one is NOT a legal function in the Random module?
+
+    mix()
+
+True or False.
+The permutation() method makes changes to the original array
+
+    False
+
+Which one can be called a permutation of the raay [1, 2, 3]?
+
+    [3, 2, 1]
