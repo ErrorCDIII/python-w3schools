@@ -29,3 +29,12 @@ print()
 print(np.sort(arrBools))
 
 # Sorting a 2-D Array
+# If you use the srot() method on a 2-D array, both arrays will be sorted
+
+import numpy as np
+
+arr = np.array([[3, 2, 3], [5, 0, 1]])
+
+print()
+
+print(np.sort(arr))
