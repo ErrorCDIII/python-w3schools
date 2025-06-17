@@ -1,0 +1,16 @@
+Consider the following code:
+    import numpy as np
+    arr = np.array([True, False, True])
+    print(np.sort(arr))
+What will be the printed resuld?
+
+    [False, True, True]
+
+Use the correct NumPy method to return a sorted array
+    arr = np.array([3, 2, 0, 1])
+
+    x = np.sort(arr)
+
+True or False.
+If you use the sort() method on a 2-D array, both arrays will be sorted.
+    True
