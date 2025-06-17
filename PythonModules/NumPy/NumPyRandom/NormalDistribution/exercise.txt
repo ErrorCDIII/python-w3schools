@@ -1,0 +1,9 @@
+The random.normal() method has three parameters, which ones?
+
+    loc scale size
+
+The curve is a Normal Distribution is also known as another object due 
+to it's shape.
+What is it called?
+
+    The Bell Curve
