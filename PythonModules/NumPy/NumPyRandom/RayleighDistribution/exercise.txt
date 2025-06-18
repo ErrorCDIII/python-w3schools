@@ -1,0 +1,7 @@
+The random.rayleigh() method has two parameters, which ones?
+
+    scale and size
+
+Insert the missing part to generate a rayleigh distribution
+
+    x = random.rayleigh(scale=2, size=(2, 3))
