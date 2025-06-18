@@ -1,0 +1,7 @@
+The random.uniform() method has three parameters, which ones?
+
+    low high size
+
+Insert the missing part to generate a uniform distribution
+
+    x = random.uniform(size=(2, 3))
