@@ -1,0 +1,7 @@
+The random.chisquare() method has two parameters, which ones?
+
+    df and size
+
+Insert the missing part to generate a chi squared distribution
+
+    x = random.chisquare(df=2, size=(2, 3))
