@@ -1,0 +1,14 @@
+The random.binomial() method has three parameters, whiich ones?
+
+    n p size
+
+Insert the missing part to generate a binomial distribution that returns 10
+datapoints:
+
+    x = randon.binomial(n=10, p=0.5, size=10)
+
+True or False.
+The curve of a Binomial Distribution will always be identical to a Normal 
+Distribution.
+
+    False
