@@ -1,0 +1,11 @@
+How many parameters does the random.pareto() method have?
+
+    2
+
+The random.pareto() method has two parameters, which ones?
+
+    a and size
+
+Insert the missing part to generate a pareto distribution
+
+    x = random.pareto(a=2, size=(2, 3))
