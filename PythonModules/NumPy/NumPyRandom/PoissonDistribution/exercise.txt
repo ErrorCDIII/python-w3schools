@@ -1,0 +1,12 @@
+The random.poisson() method has two parameters, which ones?
+
+    lam and size
+
+Insert the missing part to generate a distribution that returns 10 datapoints
+
+    x = random.poisson(lam=2, size=10)
+
+True or False.
+Normal distribution is continuous whereas Poisson is discrete.
+
+    True
