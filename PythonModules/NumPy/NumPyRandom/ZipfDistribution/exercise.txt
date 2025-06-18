@@ -1,0 +1,11 @@
+How many parameters dows the random.zipf() method have?
+
+    2
+
+The random.zipf() method has two parameters, which ones?
+
+    a and size
+
+Insert the missing part to generate a zipf distribution
+
+    x = random.zipf(a=2, size=(2, 3))
