@@ -1,0 +1,7 @@
+The random.exponential() method has two parameters, which ones?
+
+    scale and size
+
+Insert the missing part to generate an exponential distribution
+
+    x = random.exponential(scale=2, size=(2, 3))
