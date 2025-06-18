@@ -1,0 +1,11 @@
+The random.multinomial() method has three parameters, which ones?
+
+    n pvals size
+
+Insert the missing part to generate a multinomial distribution.
+
+    x = random.multinomial(n=6, pvals=[1/6, 1/6, 1/6, 1/6, 1/6, 1/6])
+
+What does the first parameter of the random.multinomial() method specify?
+
+    The number of times to run the experiment
