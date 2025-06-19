@@ -1,0 +1,19 @@
+What does 'ufuncs' stand for?
+
+    Universal Functions
+
+NumPy has a ufunc that adds elements in one list to elements in another list,
+what is the name of this ufunc?
+
+    add()
+
+Consider the following code:
+
+    import numpy as np
+    x = [2, 2, 5, 5]
+    y = [1, 5, 5, 2]
+    z = np.add(x, y)
+
+What will be the result of z?
+
+    [ 3 7 10 7 ]
