@@ -1,0 +1,13 @@
+To create a ufunc, you have to add it to the ufunc library using a specific
+function, what function?
+
+    frompufunc()
+
+How many arguments does the frompy() function take?
+
+    3
+
+What is a correct way to check if a function is a ufunc or not?
+
+    if type(np.add) == np.ufunc:
+        print('add is ufunc')
