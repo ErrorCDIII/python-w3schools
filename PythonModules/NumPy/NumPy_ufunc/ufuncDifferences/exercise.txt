@@ -1,0 +1,29 @@
+Consider the following code:
+
+    import numpy as np
+    arr = np.array([1, 2, 3, 4])
+    newarr = np.diff(arr)
+
+What will be the printed result of newarr?
+
+    [1 1 1]
+
+Consider the following code:
+
+    import numpy as np
+    arr = np.array([5, 7, 3, 4])
+    newarr = np.diff(arr)
+
+What will be the result fo newarr?
+
+    [2 -4 1]
+
+Consider the following code:
+
+    import numpy as np
+    arr = np.array([1, 2, 3, 4])
+    newarr = np.diff(arr, n=2)
+
+What will be the result of newarr?
+
+    [0 0]
