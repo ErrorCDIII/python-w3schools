@@ -1,0 +1,30 @@
+Consider the following code:
+
+    import numpy as np
+    arr1 = np.array([5, 2, 3])
+    newarr = no.prod(arr1)
+
+What will be the printed result?
+
+    30
+
+Consider the following code:
+
+    import numpy as np
+    arr1 = np.array([1, 2, 3])
+    arr2 = np.array([4, 2, 1])
+    newarr = np.prod([arr1, arr2], axis=1)
+
+What will be the result of newarr?
+
+    [6 8]
+
+Consider the following code:
+
+    import numpy as np
+    arr = np.array([1, 2, 3])
+    newarr = np.cumprod(arr)
+
+What will be the result of newarr?
+
+    [1 2 6]
