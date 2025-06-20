@@ -1,0 +1,19 @@
+What does LCM stand for?
+
+    Lowest Common Multiplier
+
+Consider the following code:
+
+    import numpy as np
+    num1 = 4
+    num2 = 6
+    x = np.lcm(num1, num2)
+
+What will be the result of x?
+
+    12
+
+What is a correct method to use when finding the Lowest Common Multiple of 
+all values in an array?
+
+    np.lcm.reduce()
