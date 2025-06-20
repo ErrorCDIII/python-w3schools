@@ -1,0 +1,27 @@
+Consider the following code:
+
+    import numpy as np
+    arr = np.trunc([5.998, 1.455])
+    print(arr)
+
+What will be the printed result of arr?
+
+    [5 1.]
+
+Consider the following code:
+
+    import numpy as np
+    arr = np.around(5.93)
+
+    6.0
+
+Consider the following code:
+
+    import numpy as np
+
+    arr = np.ceil([5.998, 1.455])
+    print(arr)
+
+What will be the result of arr?
+
+    [6. 2.]
