@@ -1,0 +1,11 @@
+What is a correct NumPy syntax to perform log at base 2?
+
+    log2()
+
+What is a correct NumPy syntax to perform log at base 10?
+
+    log10()
+
+What is a correct NUmPy syntax to perform log at base e?
+
+    log()
